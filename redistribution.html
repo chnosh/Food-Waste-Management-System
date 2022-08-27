@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+    h2{text-align: center;
+        color: #0d2a1e;
+       font-size: 500%;
+       font-family: fantasy;
+       font-style: inherit;}
+    p{text-align: center;
+      font-size: 150%;
+      font-family: cursive}
+    body{background-color: rgb(237, 231, 225);}
+    .redistribute{background-color: rgb(237, 231, 225);}
+    .dropbtn {
+  background-color: #0d2a1e;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #8da78d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(237, 231, 225);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #8da78d;}
+
+.reserve{text-align: center;}
+</style>
+<body>
+<div class="redistribute">
+  <h2>PGs</h2>
+  <p><b>Take all you can eat,
+but eat all you take
+  </b></p>
+
+  <table class="w3-table w3-striped w3-border">
+    <tr>
+      <th>NAME</th>
+      <th>ADDRESS</th>
+      <th>MEALS</th>
+    </tr>
+    <tr>
+      <td>Madilu Girls PG</td>
+      <td>32a, 2nd Cross Rd · 099801 43133, Kumarswamy layout</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Ashraya PG For Boys</td>
+      <td>59th Cross, 14th Main Rd, Kumarswamy layout</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Paradise PG</td>
+      <td>Banashankari Stage 2, Banashankari</td>
+      <td>5</td>
+    </tr>
+  </table>
+</div>
+<div class="reserve">
+
+<p class="reservation"><b>RESERVE YOUR MEAL</b></p>
+<div class="dropdown">
+    <button class="dropbtn">Select PG</button>
+    <div class="dropdown-content">
+      <a href="#">Madilu</a>
+      <a href="#">Ashraya</a>
+      <a href="#">Paradise</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Number of meals</button>
+    <div class="dropdown-content">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
